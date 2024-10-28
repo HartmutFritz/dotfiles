@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# NOT EVEN CLOSE TO USABLE
+
+ln style.css ~/repos/dotfiles/swaync_style.css
+ln config.json ~/repos/dotfiles/swaync_config.json
+ln ~/repos/dotfiles/hhyprdesktop hyprdesktop
+ln hypridle.conf ~/repos/dotfiles/hypridle.conf
+ln ~/repos/dotfiles/autostart_scratchpads.sh autostart_scratchpads.sh
+ln config ~/repos/dotfiles/swaylock_config
+ln pyprland.toml ~/repos/dotfiles/pyprland.toml
+ln style.css ~/repos/dotfiles/waybar_style.css
+ln config ~/repos/dotfiles/waybar_config
+ln hyprpaper.conf ~/repos/dotfiles/hyprpaper.conf
+ln ~/.config/hypr/hyprland.conf hyprland.conf
+ln -s ~/repos/dotfiles/nvim/ nvim
+ln ~/dotfiles/firefox_user.js user.js
+ln ~/dotfiles/gitconfig .gitconfig
+ln ~/dotfiles/gammastep_config.ini config.ini
+ln ~/dotfiles/mimeapps.list mimeapps.list
+ln ~/dotfiles/ncspot_config.toml config.toml
+ln ~/dotfiles/neofetch_config config
+ln ~/dotfiles/starship.toml starship.toml
+ln ~/dotfiles/vimrc .vimrc
+ln ~/dotfiles/xinitrc .xinitrc
+ln ~/dotfiles/zathurarc zathurarc
+ln ~/dotfiles/picom.config picom.config
+ln ~/dotfiles/profile .profile
+ln ~/dotfiles/bashrc .bashrc
+ln ~/dotfiles/xbindkeysrc .xbindkeysrc
+ln ~/dotfiles/yazi_theme.toml theme.toml
+ln ~/dotfiles/yazi_keymap.toml keymap.toml
+ln ~/dotfiles/yazi.toml yazi.toml
+ln ~/dotfiles/autostart.sh autostart.sh
+ln ~/dotfiles/qtile_config.py config.py

@@ -1,0 +1,40 @@
+flip_status_indicators = true
+
+[keybindings]
+"Space" = "playpause"
+"1" = "focus library"
+"2" = "focus search"
+"3" = "focus queue"
+"A" = "goto album"
+"a" = "goto artist"
+"J" = "move down 8"
+"K" = "move up 8"
+"b" = "back"
+"PageUp" = "focus library"
+"PageDown" = "focus search"
+">" = "seek +5000"
+"<" = "seek -5000"
+"n" = "next"
+"p" = "previous"
+"e" = "queue;move down 1"
+
+# default
+"s" = "save"
+"z" = "shuffle"
+
+
+#[theme]
+#title = "#1DB954"
+#playing = "#1DB954"
+#playing_bg = "black"
+#highlight = "light white"
+#highlight_bg = "#484848"
+#error = "light white"
+#error_bg = "red"
+#statusbar = "black"
+#statusbar_progress = "#1DB954"
+#statusbar_bg = "#1DB954"
+#cmdline = "light white"
+#cmdline_bg = "black"
+
+
