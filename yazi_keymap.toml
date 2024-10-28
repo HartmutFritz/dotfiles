@@ -151,7 +151,7 @@ keymap = [
 	{ on = [ "g", "w" ],       run = "cd ~/Documents/Work",             desc = "" },
 	{ on = [ "g", "m" ],       run = "cd ~/Media",             desc = "" },
 	{ on = [ "g", "u" ],       run = "cd ~/mount",             desc = "" },
-	{ on = [ "g", "p" ],       run = "cd ~/Documents/Personal_Stuff",          desc = "" },
+	{ on = [ "g", "p" ],       run = "cd ~/Documents/Personal",          desc = "" },
 	{ on = [ "g", "t" ],       run = "cd ~/.local/share/Trash/files",          desc = "" },
 	{ on = [ "g", "r" ],       run = "cd ~/repos",             desc = "" },
 	{ on = [ "g", "o" ],       run = "cd ~/Documents",             desc = "" },
