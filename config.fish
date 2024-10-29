@@ -123,7 +123,7 @@ function p
     killall vivaldi
     killall morgen
     echo ''
-    echo 'ERROR !!! This computer will self-destruct in'
+    echo 'ERROR !!! This computer will SELF-DESTRUCT in:'
     sleep 1
     echo '3'
     sleep 1
@@ -132,6 +132,7 @@ function p
     echo '1'
     sleep 1
     cat /usr/bin/pamsumm
+    sleep 1
     sudo poweroff
 end
 
