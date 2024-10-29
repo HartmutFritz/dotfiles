@@ -207,8 +207,6 @@ zypper pa -ir Packman #list packman packages
 ----------------------------------
 sudo snapper list
 sudo snapper undochange 221..244
-sudo snapper create --description "a_good_working_system"
-sudo snapper delete 195
 
 
 ## Image to pdf
