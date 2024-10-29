@@ -122,7 +122,16 @@ function p
     killall spotify
     killall vivaldi
     killall morgen
-    sleep 3
+    echo ''
+    echo 'ERROR !!! This computer will self-destruct in'
+    sleep 1
+    echo '3'
+    sleep 1
+    echo '2'
+    sleep 1
+    echo '1'
+    sleep 1
+    cat /usr/bin/pamsumm
     sudo poweroff
 end
 
