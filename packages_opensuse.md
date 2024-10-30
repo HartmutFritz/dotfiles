@@ -22,6 +22,7 @@ vi
 tree
 exa
 python312-numpy
+python312-matplotlib
 libreoffice
 tar
 zip
