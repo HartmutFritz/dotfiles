@@ -175,3 +175,4 @@ function l
     swaylock -i /home/hartmut/repos/dotfiles/images/dark_street.jpg &
     systemctl suspend
 end
+
