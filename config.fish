@@ -123,7 +123,7 @@ function p
     killall vivaldi
     killall morgen
     echo ''
-    echo 'ERROR !!! This computer will SELF-DESTRUCT in:'
+    echo 'WARNING!!! This computer will SELF-DESTRUCT in'
     sleep 1
     echo '3'
     sleep 1
