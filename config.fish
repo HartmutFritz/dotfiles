@@ -117,7 +117,7 @@ function y
 end
 
 # POWEROFF
-function p
+function po
     #echo 'POWEROFF'
     killall obsidian
     killall spotify
@@ -134,6 +134,17 @@ function p
     sleep 1
     cat /usr/bin/pamsumm
     sleep 1
+    sudo poweroff
+end
+
+# POWEROFF
+function p
+    echo 'POWEROFF'
+    killall obsidian
+    killall spotify
+    killall vivaldi
+    killall morgen
+    sleep 3
     sudo poweroff
 end
 
