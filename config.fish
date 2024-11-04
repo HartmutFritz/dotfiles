@@ -23,6 +23,7 @@ alias spt="ncspot"
 alias o="cd && y"
 alias yast="sudo -E yast2"
 alias q="qalc"
+alias pm="pulsemixer"
 
 # ls
 alias ls="eza -a --grid --icons --color=auto"
