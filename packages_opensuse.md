@@ -102,7 +102,7 @@ snapd
 codecs
 cmatrix
 vlc
-#bluez-tools  # to connect bose headphones - maybe not needed?
+bluez-tools  # to connect bose headphones 
 code (see: other config changes)
 brave-browser
 
