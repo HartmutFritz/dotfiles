@@ -1,6 +1,6 @@
 set selection-clipboard clipboard
-map m navigate next
-map , navigate previous
+map [normal] m navigate next
+map [normal] \, navigate previous
 
 set completion-group-bg         "#282828"
 set completion-group-fg         "#ebdbb2"
@@ -38,11 +38,11 @@ set recolor-darkcolor           "#ebdbb2"
 set statusbar-h-padding 0
 set statusbar-v-padding 0
 set page-padding 1
-map u scroll half-up
-map d scroll half-down
-map D toggle_page_mode
-map r reload
-map R rotate
-map i recolor
+map [normal] u scroll half-up
+map [normal] d scroll half-down
+map [normal] D toggle_page_mode
+map [normal] r reload
+map [normal] R rotate
+map [normal] i recolor
 set recolor                     true
-map p print
+#map [normal] p print
