@@ -36,7 +36,7 @@ ctrl+,  then: files.exclude
 ## Todoist Snap Package
 --------------------------------
 edit the Preferences file in
-/home/hartmut/snap/todoist/1291/.config/Todoist
+/home/hartmut/snap/todoist/1291/.config/Preferences
 change ["en-US"] to ["en-US","de-DE"]
 
 ## deactivate bell
