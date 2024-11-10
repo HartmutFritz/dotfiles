@@ -129,6 +129,11 @@ download.may_concurrent_connections = 10
 --------------------------------
 https://flx.ai/2019/bose-qc35ii-linux
 
+create /etc/bluetooth/main.conf mit
+ControllerMode = bredr
+
+(noch connecting wieder löschen)
+
 - bluez installieren (vl ist auch blueman wichtig)
 - kopfhörer in paringmode (knopf nach vorne)
 - 2C:41:A1:C9:35:20 einfach mit bluetoothctl verbinden
