@@ -142,7 +142,7 @@ function p
     echo 'POWEROFF'
     killall obsidian
     killall spotify
-    killall vivaldi
+    killall todoist
     killall morgen
     sleep 3
     sudo poweroff
@@ -153,7 +153,7 @@ function r
     echo 'REBOOT'
     killall obsidian
     killall spotify
-    killall vivaldi
+    killall todoist
     killall morgen
     sleep 3
     sudo reboot

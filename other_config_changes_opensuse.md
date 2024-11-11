@@ -147,6 +147,9 @@ ControllerMode = bredr
 [bluetooth]# connect XX:XX:XX:XX:XX:XX
 [bluetooth]# trust XX:XX:XX:XX:XX:XX
 
+in case this is not the default:
+pavucontrol -> "Configuration" (tab), and then for the Bose QuietComfort 35 profile select "High Fidelity Playback (A2DP Sink)"
+
 ## change hostname
 --------------------------------
 hostnamectl                        # show hostname

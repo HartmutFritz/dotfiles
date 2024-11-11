@@ -63,6 +63,7 @@ nvtop
 thunar
 qalculate
 qalculate-qt
+nwg-look # to set cursor theme
 
 
 ## xorg specific
