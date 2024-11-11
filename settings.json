@@ -10,6 +10,7 @@
   "update.showReleaseNotes": false,
   "zenMode.hideLineNumbers": false,
   "editor.renderLineHighlight": "gutter",
+  //"rust-client.rustupPath": "/home/hartmut/.cargo/bin/rustup",
 
   // "To improve performance": "",
   "extensions.experimental.affinity": {
@@ -24,7 +25,7 @@
     { "before": ["leader", "w"], "commands": [":w!"] },
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
 
-    { "before": ["Y", "Y"], "commands": [":%y"] },
+    // { "before": ["Y", "Y"], "commands": [":%y"] },
     { "before": ["<C-a>"], "after": ["G", "V", "g", "g"] },
     // change go to end of line ($) to 9 in vim mode
     {
@@ -100,10 +101,10 @@
     { "before": ["leader", "s"], "commands": [":split"] },
 
     // panes
-    {
-      "before": ["<C-h>"],
-      "commands": ["workbench.action.focusLeftGroup"]
-    },
+    // {
+    //   "before": ["<C-h>"],
+    //   "commands": ["workbench.action.focusLeftGroup"]
+    // },
     {
       "before": ["leader", "j"],
       "commands": ["workbench.action.focusBelowGroup"]
@@ -111,11 +112,11 @@
     {
       "before": ["leader", "k"],
       "commands": ["workbench.action.focusAboveGroup"]
-    },
-    {
-      "before": ["<C-l>"],
-      "commands": ["workbench.action.focusRightGroup"]
     }
+    // {
+    //   "before": ["<C-l>"],
+    //   "commands": ["workbench.action.focusRightGroup"]
+    // }
 
     // NICE TO HAVE
     // {
@@ -148,7 +149,11 @@
     { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
     // toggle comment selection
-    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
+    {
+      "before": ["leader", "p"],
+      "commands": ["editor.action.clipboardPasteAction"]
+    }
   ],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -218,11 +223,14 @@
   "editor.lineNumbers": "relative",
   "notebook.globalToolbar": false,
   "notebook.showCellStatusBar": "hidden",
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "hidden",
   "notebook.scrolling.revealNextCellOnExecute": "firstLine",
   "workbench.colorTheme": "One Dark Pro",
   "notebook.lineNumbers": "on",
   "oneDarkPro.vivid": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "explorer.autoReveal": false,
   "workbench.startupEditor": "none",
-  "github.copilot.editor.enableAutoCompletions": true
+  "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true
 }

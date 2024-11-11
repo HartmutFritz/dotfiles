@@ -414,5 +414,21 @@
     "key": "ctrl+w",
     "command": "-workbench.action.terminal.killEditor",
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+t",
+    "command": "welcome.showNewFileEntries"
+  },
+  {
+    "key": "ctrl+alt+meta+n",
+    "command": "-welcome.showNewFileEntries"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "-workbench.action.files.save"
   }
 ]
