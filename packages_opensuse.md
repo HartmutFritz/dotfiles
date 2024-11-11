@@ -64,6 +64,7 @@ thunar
 qalculate
 qalculate-qt
 nwg-look # to set cursor theme
+pdfarranger
 
 
 ## xorg specific
