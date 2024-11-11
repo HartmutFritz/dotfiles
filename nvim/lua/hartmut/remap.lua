@@ -5,7 +5,7 @@ vim.api.nvim_set_keymap('n', 'j', "v:count ? 'j' : 'gj'", {expr = true, noremap 
 vim.api.nvim_set_keymap('n', 'k', "v:count ? 'k' : 'gk'", {expr = true, noremap = true})
 
 vim.keymap.set('n', '<leader>w', ':w<CR>')
-vim.keymap.set('n', '<C-s>', ':w<CR>')
+vim.keymap.set('n', '<A-s>', ':w<CR>')
 vim.keymap.set('n', '<leader>q', ':wq<CR>')
 vim.keymap.set('n', '<leader>t', ':q!<CR>')
 
