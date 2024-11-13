@@ -104,7 +104,6 @@ alias swapesc="setxkbmap -option caps:swapescape"
 
 alias cl="clear"
 alias c="cd && clear"
-alias e="exit"
 
 
 # YAZI
