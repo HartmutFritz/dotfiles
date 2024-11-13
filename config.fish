@@ -37,6 +37,8 @@ alias la="eza -al --color=auto"            # list all
 alias gj="cd ~/Documents/Uni/ && y"
 alias gu="cd ~/Documents/Uni/ && ls"
 alias gp="cd ~/Documents/Personal_Stuff/ && y"
+alias gdn="cd ~/Documents/Personal_Stuff/DnD && y"
+alias gw="cd ~/Documents/Work/ && y"
 alias gdo="cd ~/Documents && y"
 alias gc="cd ~/repos/dotfiles && ls"
 alias gco="cd ~/.config && ls"
@@ -52,6 +54,7 @@ alias gr="cd ~/repos && y"
 alias gm="cd ~/Media/ && y"
 alias gs="cd /home/hartmut/Media/Serien && y"
 alias gmo="cd /home/hartmut/Media/Movies && y"
+alias gt="cd /home/hartmut/.local/share/Trash/files && ls"
 
 # power
 alias s='systemctl suspend'
