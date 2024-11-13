@@ -39,8 +39,13 @@ vim.keymap.set("n", "q", "h")
 vim.api.nvim_set_keymap('n', ";", ".", {noremap = true})
 vim.api.nvim_set_keymap('n', ".", ";", {noremap = true})
 
+-- hop
+vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = true})
+
 
 -- ------- My remaps END ---------
+
+
 
 
 -- vim.keymap.set("n", "<leader>pp", '"+p', { silent = true })
