@@ -37,6 +37,7 @@ alias la="eza -al --color=auto"            # list all
 alias gj="cd ~/Documents/Uni/ && y"
 alias gu="cd ~/Documents/Uni/ && ls"
 alias gp="cd ~/Documents/Personal_Stuff/ && y"
+alias gdo="cd ~/Documents && y"
 alias gc="cd ~/repos/dotfiles && ls"
 alias gco="cd ~/.config && ls"
 alias gn="cd ~/Documents/Personal_Stuff/Notes && y"
