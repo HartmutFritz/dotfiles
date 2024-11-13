@@ -186,7 +186,7 @@ function h
 end
 
 function l
-    swaylock -i /home/hartmut/repos/dotfiles/images/dark_street.jpg &
+    swaylock -i /home/hartmut/repos/wallpaper/dark_street.jpg &
     systemctl suspend
 end
 
