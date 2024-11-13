@@ -29,7 +29,7 @@ edit = [
 	{ run = '${EDITOR:=nvim} "$@"', desc = "$EDITOR", block = true, for = "unix" }
 ]
 open = [
-	{ run = 'xdg-open "$@"',                desc = "Open", for = "linux" }
+	{ run = 'xdg-open "$@"', orphan = true,                desc = "Open", for = "linux" }
 ]
 reveal = [
 	{ run = '''exiftool "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show EXIF", for = "unix" },
