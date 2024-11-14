@@ -41,6 +41,10 @@ play = [
 	{ run = 'vlc "$@"', orphan = true, for = "unix" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" },
 ]
+# funktioniert nicht ... 
+# vscode = [
+#     {run = 'code', orphan = true, for = "unix"},
+# ]
 
 [open]
 rules = [
@@ -50,6 +54,10 @@ rules = [
 	{ mime = "image/*", use = [ "open", "reveal" ] },
 	{ mime = "video/*", use = [ "play", "reveal" ] },
 	{ mime = "audio/*", use = [ "play", "reveal" ] },
+    # funktioniert nicht ... 
+    #{ mime = "application/vnd.jupyter.notebook+json", use = [ "vscode", "reveal"] },
+    #{ mime = "application/x-ipynb+json", use = [ "vscode", "reveal"] },
+
 	{ mime = "inode/x-empty", use = [ "edit", "reveal" ] },
 
 	{ mime = "application/json", use = [ "edit", "reveal" ] },
