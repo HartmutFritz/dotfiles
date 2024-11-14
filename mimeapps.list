@@ -16,3 +16,4 @@ audio/mpeg=vlc.desktop
 application/x-ipynb+json=code.desktop
 text/x-python=nvim.desktop
 application/toml=nvim.desktop
+application/vnd.jupyter.notebook+json=code.desktop
