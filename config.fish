@@ -35,6 +35,7 @@ alias la="eza -al --color=auto"            # list all
 
 # goto
 alias gj="cd ~/Documents/Uni/ && y"
+alias ga="cd ~/Documents/Uni/Thesis/repos/Spatial-LSTM && y"
 alias gu="cd ~/Documents/Uni/ && ls"
 alias gp="cd ~/Documents/Personal_Stuff/ && y"
 alias gdn="cd ~/Documents/Personal_Stuff/DnD && y"
@@ -47,7 +48,7 @@ alias gdn="cd ~/Documents/Personal_Stuff/DnD && y"
 alias gb="cd ~/Documents/Personal_Stuff/Bilder && y"
 alias gt="cd ~/Documents/Personal_Stuff/Tickets_and_Travel && y"
 alias gsc="cd /home/hartmut/Documents/Personal_Stuff/Bilder/Screenshots && y"
-alias ga="cd ~/Documents/Work && y"
+alias gw="cd ~/Documents/Work && y"
 alias gd="cd ~/Downloads/ && y"
 alias gh="cd ~ && ls"
 alias gr="cd ~/repos && y"

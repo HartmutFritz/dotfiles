@@ -39,6 +39,10 @@ keymap = [
 	{ on = [ "h" ], run = "leave", desc = "Go back to the parent directory" },
 	{ on = [ "l" ], run = "enter", desc = "Enter the child directory" },
 
+	{ on = [ "b" ], run = "leave", desc = "Go back to the parent directory" },
+	{ on = [ "e" ], run = "enter", desc = "Enter the child directory" },
+	{ on = [ "w" ], run = "enter", desc = "Enter the child directory" },
+
 	{ on = [ "H" ], run = "back",    desc = "Go back to the previous directory" },
 	{ on = [ "L" ], run = "forward", desc = "Go forward to the next directory" },
 

@@ -36,8 +36,8 @@ vim.keymap.set("n", "J", "j")
 vim.keymap.set("n", "K", "k")
 vim.keymap.set("n", "q", "h")
 
-vim.api.nvim_set_keymap('n', ";", ".", {noremap = true})
-vim.api.nvim_set_keymap('n', ".", ";", {noremap = true})
+vim.api.nvim_set_keymap('n', ";", "ö", {noremap = true})
+vim.api.nvim_set_keymap('n', "ö", ";", {noremap = true})
 
 -- hop
 vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = true})
