@@ -66,6 +66,7 @@ qalculate-qt
 nwg-look # to set cursor theme
 pdfarranger
 bolt-tools
+nvidia-compute-utils-G06
 
 
 ## xorg specific
