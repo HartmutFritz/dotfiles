@@ -232,6 +232,6 @@ Tabliss Plugin
 ## cuda thunderbolt 
 -------------------------------
 boltctl list # to see uuid
-sudo boltctl authorize --first-time c5030000-0080-7f08-23fe-a68e52c2c002
+sudo boltctl enroll c5030000-0080-7f08-23fe-a68e52c2c002 # policy should be auto
 lspci -d ::03xx # to see it worked
 
