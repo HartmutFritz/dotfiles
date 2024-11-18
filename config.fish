@@ -106,7 +106,6 @@ alias ....="cd .. && cd .. && cd .. && ls"
 alias gitu="git add -A && git commit -m "_" && git push"
 alias condaon="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
 alias swapesc="setxkbmap -option caps:swapescape"
-alias gpu="sudo boltctl authorize --first-time c5030000-0080-7f08-23fe-a68e52c2c002"
 
 alias cl="clear"
 alias c="cd && clear"
