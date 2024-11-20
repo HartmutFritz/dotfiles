@@ -43,6 +43,7 @@ map [normal] d scroll half-down
 map [normal] D toggle_page_mode
 map [normal] r reload
 map [normal] R rotate
-map [normal] i recolor
-set recolor                     true
+map [normal] i zoom in
+map [normal] o zoom out
+map t recolor
 #map [normal] p print

@@ -48,9 +48,10 @@ export GTK2_RC_FILES=/usr/share/themes/Adwaita-dark/gtk-2.0/gtkrc
 export QT_STYLE_OVERRIDE=Adwaita-Dark
 
 
-# PATH
-#export PATH=/usr/local/cuda-12.4/bin${PATH:+:${PATH}}
-#export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64
+# cuda 
+export PATH=/usr/local/cuda-12.6/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
