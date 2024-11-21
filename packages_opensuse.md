@@ -67,6 +67,7 @@ nwg-look # to set cursor theme
 pdfarranger
 bolt-tools
 geany
+keyd
 
 
 ## xorg specific
