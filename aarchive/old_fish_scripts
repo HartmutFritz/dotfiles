@@ -143,3 +143,4 @@ function nosoff
     xset +dpms
 end
 
+alias swapesc="setxkbmap -option caps:swapescape"

@@ -104,11 +104,13 @@ alias ..="cd .. && ls"
 alias ...="cd .. && cd .. && ls"
 alias ....="cd .. && cd .. && cd .. && ls"
 alias gitu="git add -A && git commit -m "_" && git push"
-alias condaon="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
-alias swapesc="setxkbmap -option caps:swapescape"
 
 alias cl="clear"
 alias c="cd && clear"
+
+alias condaon="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
+alias cjku="condaon && conda activate jku"
+alias cdeact="conda deactivate
 
 
 # YAZI
