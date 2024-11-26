@@ -110,7 +110,7 @@ alias c="cd && clear"
 
 alias condaon="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
 alias cjku="condaon && conda activate jku"
-alias cdeact="conda deactivate
+alias cdeact="conda deactivate"
 
 
 # YAZI
