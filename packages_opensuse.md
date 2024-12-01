@@ -68,6 +68,7 @@ pdfarranger
 bolt-tools
 geany
 keyd
+texlive
 
 
 ## xorg specific
