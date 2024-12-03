@@ -187,7 +187,7 @@ function wbr
     waybar & disown
 end
 
-function h
+function hs
     history | fzf | clip
 end
 
