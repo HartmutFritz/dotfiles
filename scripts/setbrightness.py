@@ -28,7 +28,7 @@ def step_to_backlight(step, backlight_min, backlight_max, steps):
 
 if __name__ == "__main__":
 
-    backlight_min = 4
+    backlight_min = 8
     backlight_max = 255
 
     steps = 20
