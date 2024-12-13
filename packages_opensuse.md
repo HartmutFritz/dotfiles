@@ -135,6 +135,15 @@ flatseal
 https://github.com/adi1090x/rofi
 
 
+-------------------------------
+# conda-base enviroment
+-------------------------------
+conda install -c conda-forge rich-cli
+conda install -c conda-forge textual
+conda install -c conda-forge textual-dev
+
+
+
 
 
 

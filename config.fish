@@ -24,6 +24,7 @@ alias o="cd && y"
 alias yast="sudo -E yast2"
 alias bc="qalc"
 alias pm="pulsemixer"
+alias timer="/home/hartmut/repos/term-timer/timer.py"
 
 # ls
 alias ls="eza -a --grid --icons --color=auto"
