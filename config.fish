@@ -109,8 +109,8 @@ alias cl="clear"
 alias c="cd && clear"
 
 alias con="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
+alias coff="conda deactivate && conda deactivate && conda deactivate"
 alias cjku="con && conda activate jku"
-alias cdeact="conda deactivate && conda deactivate && conda deactivate"
 
 
 # YAZI
