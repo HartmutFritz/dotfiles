@@ -160,16 +160,16 @@ hostnamectl set-hostname thinkpad  # change hostname
 download nerdfonts and symbols from https://www.nerdfonts.com/font-downloads
 put into /home/hartmut/.local/share/fonts
 
-## miniconda
+## miniconda (oder ist mamba besser?)
 --------------------------------
 documentation: https://docs.anaconda.com/miniconda/
 
 to install miniconda just run the following commands:
 
-mkdir -p ~/Programms/miniconda3
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/Programms/miniconda3/miniconda.sh
-bash ~/Programms/miniconda3/miniconda.sh -b -u -p ~/Programms/miniconda3
-rm -rf ~/Programms/miniconda3/miniconda.sh
+mkdir -p ~/repos/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/repos/miniconda3/miniconda.sh
+bash ~/repos/miniconda3/miniconda.sh -b -u -p ~/repos/miniconda3
+rm -rf ~/repos/miniconda3/miniconda.sh
 
 ## vorta
 --------------------------------

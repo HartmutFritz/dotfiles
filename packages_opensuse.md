@@ -136,15 +136,15 @@ https://github.com/adi1090x/rofi
 
 
 -------------------------------
-# conda-base enviroment
+# conda
 -------------------------------
+- base enviroment
 conda install -c conda-forge rich-cli
+pip install pyprland
+
+- tui
 conda install -c conda-forge textual
 conda install -c conda-forge textual-dev
-
-
-
-
 
 
 
