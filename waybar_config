@@ -10,8 +10,8 @@
 	],
 	"modules-right": [
         "idle_inhibitor",
-        "backlight",
         "pulseaudio",
+        "backlight",
 		"cpu",
 		"memory",
         // "network#wifi",
