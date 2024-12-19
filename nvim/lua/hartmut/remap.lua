@@ -20,9 +20,9 @@ vim.keymap.set('o', 'L', '$')
 vim.keymap.set('v', 'L', '$')
 
 
--- yank file, select all
-vim.api.nvim_set_keymap('n', 'YY', ':%y<CR>', {noremap = true, silent = true})
+-- select all, Y
 vim.api.nvim_set_keymap('n', '<C-a>', 'ggVG', {noremap = true, silent = true})
+vim.keymap.set('n', 'Y', 'y$')
 
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")

@@ -25,6 +25,7 @@ alias yast="sudo -E yast2"
 alias bc="qalc"
 alias pm="pulsemixer"
 alias timer="/home/hartmut/repos/term-timer/timer.py"
+alias wetter="curl wttr.in/vienna"
 
 # ls
 alias ls="eza -a --grid --icons --color=auto"
