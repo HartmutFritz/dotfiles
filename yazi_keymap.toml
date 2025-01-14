@@ -37,6 +37,7 @@ keymap = [
 	{ on = [ "<PageDown>" ],   run = "arrow 100%",  desc = "Move cursor down one page" },
 
 	{ on = [ "h" ], run = "leave", desc = "Go back to the parent directory" },
+	{ on = [ ";" ], run = "leave", desc = "Go back to the parent directory" },
 	{ on = [ "l" ], run = "enter", desc = "Enter the child directory" },
 
 	{ on = [ "b" ], run = "leave", desc = "Go back to the parent directory" },
