@@ -47,6 +47,13 @@ vim.keymap.set("n", "K", "5k")
 -- hop
 vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = true})
 
+-- JKL;
+
+-- vim.keymap.set({"n", "v", "x", "o"}, "j", "h")
+-- vim.keymap.set({"n", "v", "x", "o"}, "k", "j")
+-- vim.keymap.set({"n", "v", "x", "o"}, "l", "k")
+-- vim.keymap.set({"n", "v", "x", "o"}, ";", "l")
+
 
 -- ------- My remaps END ---------
 
