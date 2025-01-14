@@ -1,23 +1,16 @@
 -- My own remaps
 
 vim.g.mapleader = " "
-vim.api.nvim_set_keymap('n', 'j', "v:count ? 'j' : 'gj'", {expr = true, noremap = true})
-vim.api.nvim_set_keymap('n', 'k', "v:count ? 'k' : 'gk'", {expr = true, noremap = true})
+-- vim.api.nvim_set_keymap('n', 'j', "v:count ? 'j' : 'gj'", {expr = true, noremap = true})
+-- vim.api.nvim_set_keymap('n', 'k', "v:count ? 'k' : 'gk'", {expr = true, noremap = true})
+vim.api.nvim_set_keymap('n', 'j', "gj", {noremap = true})
+vim.api.nvim_set_keymap('n', 'k', "gk", {noremap = true})
+-- sachen werden unten rechts angezeigt wenn expr = true
 
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('n', '<A-s>', ':w<CR>')
 vim.keymap.set('n', '<leader>q', ':wq<CR>')
 vim.keymap.set('n', '<leader>t', ':q!<CR>')
-
--- L and H
-vim.keymap.set('n', 'H', '_')
-vim.keymap.set('x', 'H', '_')
-vim.keymap.set('o', 'H', '_')
-vim.keymap.set('v', 'H', '_')
-vim.keymap.set('n', 'L', '$')
-vim.keymap.set('x', 'L', '$')
-vim.keymap.set('o', 'L', '$')
-vim.keymap.set('v', 'L', '$')
 
 
 -- select all, Y
@@ -35,14 +28,9 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 
--- unmap J, K, q
-vim.keymap.set("n", "J", "5j")
-vim.keymap.set("n", "K", "5k")
--- vim.keymap.set("n", "q", "h")
-
--- vim.api.nvim_set_keymap('n', "n", "b", {noremap = true})
--- vim.api.nvim_set_keymap('n', "m", "w", {noremap = true})
--- vim.api.nvim_set_keymap('n', "w", "n", {noremap = true})
+-- L and H
+-- vim.keymap.set({"n", "v", "x", "o"}, 'H', '_')
+-- vim.keymap.set({"n", "v", "x", "o"}, 'L', '$')
 
 -- hop
 vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = true})
@@ -53,6 +41,12 @@ vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = tru
 -- vim.keymap.set({"n", "v", "x", "o"}, "k", "j")
 -- vim.keymap.set({"n", "v", "x", "o"}, "l", "k")
 -- vim.keymap.set({"n", "v", "x", "o"}, ";", "l")
+
+-- unmap J, K, L
+-- vim.keymap.set("n", "J", "jk")
+-- vim.keymap.set("n", "K", "jk")
+-- vim.keymap.set("n", "L", "jk")
+
 
 
 -- ------- My remaps END ---------
