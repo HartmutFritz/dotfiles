@@ -29,8 +29,8 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 
 -- L and H
--- vim.keymap.set({"n", "v", "x", "o"}, 'H', '_')
--- vim.keymap.set({"n", "v", "x", "o"}, 'L', '$')
+vim.keymap.set({"n", "v", "x", "o"}, 'H', '_')
+vim.keymap.set({"n", "v", "x", "o"}, 'L', '$')
 
 -- hop
 vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = true})
@@ -41,7 +41,7 @@ vim.api.nvim_set_keymap('n', 's', ':HopChar2<CR>', {noremap = true, silent = tru
 -- vim.keymap.set({"n", "v", "x", "o"}, "k", "j")
 -- vim.keymap.set({"n", "v", "x", "o"}, "l", "k")
 -- vim.keymap.set({"n", "v", "x", "o"}, ";", "l")
-vim.keymap.set({"n", "v", "x", "o"}, ";", "h")
+-- vim.keymap.set({"n", "v", "x", "o"}, ";", "h")
 
 -- unmap J, K, L
 -- vim.keymap.set("n", "J", "jk")

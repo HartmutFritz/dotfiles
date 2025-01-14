@@ -1,0 +1,91 @@
+{
+  "editor.formatOnSave": true,
+  "editor.suggest.insertMode": "replace",
+  "window.zoomLevel": 3,
+  "launch": {},
+  "[json]": {},
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "update.showReleaseNotes": false,
+  "zenMode.hideLineNumbers": false,
+  "editor.renderLineHighlight": "gutter",
+  //"rust-client.rustupPath": "/home/hartmut/.cargo/bin/rustup",
+
+  // "To improve performance": "",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 2,
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "solid",
+  "workbench.activityBar.location": "hidden",
+  "vim.useSystemClipboard": true,
+  "editor.wordWrap": "off",
+  "editor.cursorSurroundingLines": 12,
+  "editor.scrollBeyondLastLine": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.statusBar.visible": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "notebook.insertToolbarLocation": "betweenCells",
+  "files.exclude": {
+    "**/.venv/": true
+  },
+  "search.exclude": {
+    "**.wav": true,
+    "**.jpeg": true,
+    "**.png": true,
+    "**.zip": true,
+    "**.svg": true,
+    "**.pyc": true,
+    "**.can": true,
+    "**.mp5": true,
+    "**.mp4": true,
+    "**.pdf": true,
+    "**.npy": true,
+    "**.mdl": true,
+    "**.pth": true,
+    "**.onnx": true,
+    "**.html": true,
+    "**.pt": true,
+    "**.csv": true,
+    "**.run": true,
+    "**.docx": true,
+    // "**.md": true,
+    // "**.txt": true,
+    "**.pptx": true,
+    "**.odp": true,
+    "**.odg": true,
+    "**.gif": true,
+    "**.sdf": true,
+    "**.smi": true,
+    "**.exe": true,
+    "**/Altfragen": true,
+    "**/partial_exams": true,
+    "**/.venv": true
+  },
+  "editor.fontSize": 15,
+
+  // other settings
+  "notebook.globalToolbar": false,
+  "notebook.showCellStatusBar": "hidden",
+  "window.menuBarVisibility": "hidden",
+  "notebook.scrolling.revealNextCellOnExecute": "firstLine",
+  "workbench.colorTheme": "One Dark Pro",
+  "notebook.lineNumbers": "on",
+  "oneDarkPro.vivid": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "explorer.autoReveal": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "jupyter.askForKernelRestart": false,
+  "terminal.integrated.inheritEnv": false,
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim"
+}
+
