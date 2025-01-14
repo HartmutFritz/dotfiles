@@ -1,0 +1,5 @@
+[user]
+	email = hartmut.fritz@proton.me
+	name = HartmutFritz
+[core]
+	editor = nvim

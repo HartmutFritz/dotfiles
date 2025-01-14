@@ -1,0 +1,79 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+  "lost_windows",
+  "monitors",
+  "toggle_dpms",
+  "magnify",
+  "expose",
+  "shift_monitors",
+  "workspaces_follow_focus",
+]
+
+[workspaces_follow_focus]
+max_workspaces = 10
+
+[expose]
+include_special = false
+
+[scratchpads.terminal]
+animation = "fromTop"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+position = "4% 7%"
+size = "92% 89%"
+unfocus = "hide"
+lazy = false
+pinned = false
+hysteresis = 0
+hide_delay = 0.3
+
+[scratchpads.music]
+animation = "fromTop"
+command = "spotify"
+class = "Spotify"  # check: hyprctl clients | grep class
+position = "4% 7%"
+size = "92% 89%"
+unfocus = "hide"
+lazy = false
+pinned = false
+hysteresis = 0
+hide_delay = 0.3
+
+[scratchpads.todo]
+animation = "fromTop"
+command = "vivaldi.vivaldi-stable"
+class = "Vivaldi-stable"  # check: hyprctl clients | grep class
+#command = "todoist"
+#class = "Todoist"  # check: hyprctl clients | grep class
+position = "4% 7%"
+size = "92% 89%"
+unfocus = "hide"
+lazy = true
+pinned = false
+hysteresis = 0
+hide_delay = 0.3
+
+[scratchpads.calendar]
+animation = "fromTop"
+command = "morgen"
+class = "Morgen"  # check: hyprctl clients | grep class
+position = "4% 7%"
+size = "92% 89%"
+unfocus = "hide"
+lazy = true
+pinned = false
+hysteresis = 0
+hide_delay = 0.3
+
+#[scratchpads.notes]
+#animation = "fromTop"
+#command = "obsidian"
+#class = "obsidian"  # check: hyprctl clients | grep class
+#position = "4% 7%"
+#size = "92% 89%"
+#unfocus = "hide"
+#lazy = false
+#pinned = false
+#hysteresis = 0
+#hide_delay = 0.3

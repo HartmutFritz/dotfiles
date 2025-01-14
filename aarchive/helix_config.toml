@@ -1,0 +1,59 @@
+
+# theme = "onedark"
+
+# enable soft wrap such that the indentation is preserved and has no weird symbols
+[editor.soft-wrap]
+enable = true
+wrap-indicator = ""
+
+# Maps `jk` to exit insert mode
+[keys.insert]
+k = { j = "normal_mode" } 
+
+# highlights cursorline
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+
+# cursor shape
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+# use system clipboard for yanking and pasting
+[keys.normal]
+"ret" = ["move_line_down", "goto_first_nonwhitespace"] # Maps the enter key to move to start of next line
+p = ":clipboard-paste-after"
+P = ":clipboard-paste-before"
+y = ":clipboard-yank-join"
+Y = ":clipboard-yank"
+R = ":clipboard-paste-replace"
+d = [":clipboard-yank-join", "delete_selection"]
+
+# use system clipboard for yanking and pasting
+[keys.select]
+p = ":clipboard-paste-after"
+P = ":clipboard-paste-before"
+y = ":clipboard-yank-join"
+Y = ":clipboard-yank"
+R = ":clipboard-paste-replace"
+d = [":clipboard-yank-join", "delete_selection"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+## spotify-tui
+----------------------------------
+
+function spot
+    set -l pid (pgrep spotifyd)
+    if test -z "$pid"
+        spotifyd
+    end
+    spt
+end
+
+## zoxide
+-----------------------------------
+zoxide init fish | source
+
+
+#### todoist-cli
+--------------------------
+alias tw="todoist-cli list --filter '#week'"
+alias ti="todoist-cli list --filter '#Inbox'"
+alias tk="todoist-cli list --filter '#kal'"
+alias tt="todoist-cli list --filter 'over due | today | p1 | p2 | p3'"
+alias tu="todoist-cli list --filter 'tom'"
+alias tp="todoist-cli list --filter 'p1'"
+alias ts="todoist-cli sync"
+alias t="todoist-cli quick"
+alias cl="cd && clear && todoist-cli list --filter 'p1 | (#Kalender & tod)'"
+
+function te
+  todoist-cli list | peco | cut -d ' ' -f 1 | tr '\n' ' ' | sed -e 's/[ \t]*$//' | read ret
+  # ret with color: [34m7728318789[0m
+  echo $ret | sed -e 's/\[34m//' | read ret
+  echo $ret | sed -e 's/\[0m//' | read ret
+  todoist-cli close $ret
+end
+
+function tfilter
+  todoist-cli list --filter $argv
+end
+
+## tod-bin
+---------------------------
+alias t="tod -q"
+alias tw="tod task list --project week"
+alias ti="tod task list --project Inbox"
+alias tt="tod task list --project today"
+alias ttm="tod task list --project tomorrow"
+alias tk="tod task list --filter '#kalender & tod'"
+alias tu="tod task list --filter 'over due | 3 days'"
+alias tn="tod task next --project today"
+alias tc="tod task complete"
+alias te="tod project empty --project"
+alias tpf="tod filter process --filter"
+alias tpp="tod project process --project"
+alias tp="tod project prioritize --project"
+alias ted="tod task edit -f '#Inbox | #today | #tomorrow | #month | #long_term | #week | #kalender | #Vielleicht_Irgendwann | #Remember | #Empfehlungen'"
+
+# tod-bin
+----------------------------
+alias t="tod -q"
+alias tt="tod task list --project today"
+alias ti="tod task list --project Inbox"
+alias tn="tod task next --project current"
+alias tc="tod task complete"
+
+# ranger
+----------------------------
+alias ranger="ranger --choosedir="$HOME/.rangerdir"; cd (cat $HOME/.rangerdir) && ls"
+
+# cd and ls
+----------------------------
+function c
+    cd $argv
+    and ls
+end
+
+
+# OPEN -- not good enough
+----------------------------
+function o
+    set file (find ~/ -type f | fzf)
+    set nb (echo $file | grep '.ipynb')
+    if test -n "$nb"
+        code $nb &
+    end
+    if test -n "$file"
+        xdg-open $file &
+    end
+end
+
+# LAUNCH MOVIE
+function lm
+    set movie (find ~/Media/Movies -name '*.mp4' -or -name '*.mkv' | fzf --reverse)
+    set movie_path (echo $movie | sed -E "s/ /\ /g")
+    if test -n "$movie_path"
+        vlc $movie_path &
+    end
+end
+
+------------------------------
+
+alias swapesc='setxkbmap -option caps:swapescape'
+
+alias venvon="source ~/Documents/JKU/.venv/bin/activate.fish"
+
+function rebuild
+    sudo cp /home/hartmut/dotfiles/configuration.nix /etc/nixos/configuration.nix
+    cd /etc/nixos
+    sudo nixos-rebuild switch
+    cd -
+end
+
+function swapesc
+    gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
+end
+
+# pip update
+function pipu
+    pip --disable-pip-version-check list --outdated --format=json | python -c "import json, sys; print('\n'.join([x['name'] for x in json.load(sys.stdin)]))" | xargs -n1 pip install -U
+end
+
+# memory, disc space
+# df -h
+# du -hs *
+
+alias fdisc="sudo fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
+
+alias clip="xclip -selection clipboard"
+
+alias l='i3lock --color 000000' # xorg
+
+
+# no sleep
+function nos
+    xset s off      # Disable screensaver
+    xset -dpms      # Disable Display Power Management Signaling
+    xset s noblank  # Disable blanking
+end
+
+# no sleep off
+function nosoff
+    xset s on
+    xset +dpms
+end
+
+alias swapesc="setxkbmap -option caps:swapescape"
