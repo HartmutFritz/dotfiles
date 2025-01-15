@@ -106,6 +106,7 @@ alias ...="cd .. && cd .. && ls"
 alias ....="cd .. && cd .. && cd .. && ls"
 alias gitu="git add -A && git commit -m "_" && git push"
 alias gitunh="git add * && git commit -m "_" && git push"
+alias ipadress="curl ifconfig.me"
 
 alias cl="clear"
 alias c="cd && clear"
