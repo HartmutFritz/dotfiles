@@ -70,15 +70,15 @@ pinned = false
 hysteresis = 0
 hide_delay = 0.3
 
-#[scratchpads.notes]
-#animation = "fromTop"
-#command = "obsidian"
-#class = "obsidian"  # check: hyprctl clients | grep class
-##position = "4% 7%"
-##size = "92% 89%"
-#size = "98% 93%"
-#unfocus = "hide"
-#lazy = false
-#pinned = false
-#hysteresis = 0
-#hide_delay = 0.3
+[scratchpads.notes]
+animation = "fromTop"
+command = "obsidian"
+class = "obsidian"  # check: hyprctl clients | grep class
+#position = "4% 7%"
+#size = "92% 89%"
+size = "98% 93%"
+unfocus = "hide"
+lazy = false
+pinned = false
+hysteresis = 0
+hide_delay = 0.3
