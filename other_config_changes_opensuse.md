@@ -237,3 +237,7 @@ lspci -d ::03xx # to see it worked
 
 install cuda:
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#
+
+## docker 
+-----------------------------
+https://github.com/groda/big_data/blob/master/docker_for_beginners.md#introduction
