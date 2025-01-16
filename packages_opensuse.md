@@ -69,6 +69,8 @@ bolt-tools
 geany
 keyd
 texlive
+docker
+docker-compose
 
 
 ## xorg specific
