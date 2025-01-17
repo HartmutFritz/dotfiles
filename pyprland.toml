@@ -82,3 +82,16 @@ lazy = false
 pinned = false
 hysteresis = 0
 hide_delay = 0.3
+
+#[scratchpads.test]
+#animation = "fromTop"
+#command = "flatpak run com.todoist.Todoist"
+#class = "Todoist"  # check: hyprctl clients | grep class
+##position = "4% 7%"
+##size = "92% 89%"
+#size = "98% 93%"
+#unfocus = "hide"
+#lazy = false
+#pinned = false
+#hysteresis = 0
+#hide_delay = 0.3
