@@ -1,6 +1,8 @@
 set selection-clipboard clipboard
 map [normal] m navigate next
 map [normal] , navigate previous
+map [normal] 1 navigate next
+map [normal] 2 navigate previous
 map [normal] w search forward
 map [normal] W search backward
 
