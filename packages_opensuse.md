@@ -89,6 +89,7 @@ i3lock
 -------------------------------
 hyprland
 hyprpaper
+hyprland-qtutils
 waybar
 grim
 slurp
