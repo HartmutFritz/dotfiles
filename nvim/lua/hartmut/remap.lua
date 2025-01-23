@@ -7,7 +7,7 @@ vim.keymap.set('n', 'k', "gk", {noremap = true})
 -- sachen werden unten rechts angezeigt wenn expr = true
 
 vim.keymap.set('n', '<leader>w', ':w<CR>')
-vim.keymap.set('n', '<A-s>', ':w<CR>')
+vim.keymap.set('n', '<C-s>', ':w<CR>')
 vim.keymap.set('n', '<leader>q', ':wq<CR>')
 vim.keymap.set('n', '<leader>t', ':q!<CR>')
 
