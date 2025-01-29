@@ -108,8 +108,8 @@ alias gitu="git add -A && git commit -m "_" && git push"
 alias gitunh="git add * && git commit -m "_" && git push"
 alias ipadress="curl ifconfig.me"
 
-alias c="clear"
-alias cl="cd && clear"
+alias cl="clear"
+alias c="cd && clear"
 
 alias con="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
 alias coff="conda deactivate && conda deactivate && conda deactivate"
