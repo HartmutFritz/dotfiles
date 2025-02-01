@@ -128,27 +128,6 @@ function y
 end
 
 # POWEROFF
-function po
-    #echo 'POWEROFF'
-    killall obsidian
-    killall spotify
-    killall vivaldi
-    killall morgen
-    echo 'WARNING!!!'
-    echo 'This computer will SELF-DESTRUCT in'
-    sleep 1
-    echo '3'
-    sleep 1
-    echo '2'
-    sleep 1
-    echo '1'
-    sleep 1
-    cat /usr/bin/pamsumm
-    sleep 1
-    sudo poweroff
-end
-
-# POWEROFF
 function p
     echo 'POWEROFF'
     killall obsidian
