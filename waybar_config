@@ -38,28 +38,28 @@
 		"format": "   {usage:2}%",
         "tooltip": false
 	},
-    "disk": {
-        "format": "   {free}/{total}",
-        "tooltip": false
-    },
-	"custom/packages": {
-		"exec": "~/.local/bin/packagecount",
-		"format": "   {}",
-		"interval": 45
-	},
-    "network#wifi": {
-        "interval": 1,
-        "interface": "wlp6s0",
-        //"interface": "wlp62s0",
-        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-        "format-wifi": "{icon}   {signalStrength}%",
-        "format-disconnected": "󰤮",
-        "tooltip": false,
-    },
-	"tray": {
-		//"icon-size": 24,
-		"spacing": 12
-	},
+    // "disk": {
+    //     "format": "   {free}/{total}",
+    //     "tooltip": false
+    // },
+	// "custom/packages": {
+	// 	"exec": "~/.local/bin/packagecount",
+	// 	"format": "   {}",
+	// 	"interval": 45
+	// },
+    // "network#wifi": {
+    //     "interval": 1,
+    //     "interface": "wlp6s0",
+    //     //"interface": "wlp62s0",
+    //     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    //     "format-wifi": "{icon}   {signalStrength}%",
+    //     "format-disconnected": "󰤮",
+    //     "tooltip": false,
+    // },
+	// "tray": {
+	// 	//"icon-size": 24,
+	// 	"spacing": 12
+	// },
     "pulseaudio": {
         "format": "{icon}   {volume}%",
         "format-bluetooth": "{volume}% {icon} ",
@@ -89,25 +89,25 @@
             "deactivated": ""
         }
     },
-    "custom/notification": {
-        "tooltip": false,
-        "format": "{icon} {}",
-        "format-icons": {
-            "notification": "<span foreground='red'><sup></sup></span>",
-            "none": "",
-            "dnd-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-none": "",
-            "inhibited-notification": "<span foreground='red'><sup></sup></span>",
-            "inhibited-none": "",
-            "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-inhibited-none": ""
-        },
-        "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click": "swaync-client -t -sw",
-        "escape": true
-    },
+    // "custom/notification": {
+    //     "tooltip": false,
+    //     "format": "{icon} {}",
+    //     "format-icons": {
+    //         "notification": "<span foreground='red'><sup></sup></span>",
+    //         "none": "",
+    //         "dnd-notification": "<span foreground='red'><sup></sup></span>",
+    //         "dnd-none": "",
+    //         "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+    //         "inhibited-none": "",
+    //         "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+    //         "dnd-inhibited-none": ""
+    //     },
+    //     "return-type": "json",
+    //     "exec-if": "which swaync-client",
+    //     "exec": "swaync-client -swb",
+    //     "on-click": "swaync-client -t -sw",
+    //     "escape": true
+    // },
     "battery": {
         "states": {
             "warning": 30,
