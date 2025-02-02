@@ -37,7 +37,7 @@ alias la="eza -al --color=auto"            # list all
 
 # goto
 alias gj="cd ~/Documents/Uni/ && y"
-alias ga="cd ~/Documents/Uni/Thesis/repos/Spatial-LSTM && y"
+alias ga="cd ~/Documents/Uni/Thesis/ && y"
 alias gu="cd ~/Documents/Uni/ && ls"
 alias gp="cd ~/Documents/Personal_Stuff/ && y"
 alias gdn="cd ~/Documents/Personal_Stuff/DnD/Kilwin && y"

@@ -140,7 +140,7 @@ keymap = [
 	{ on = [ "g", "r" ],       run = "cd ~/repos",             desc = "" },
 	{ on = [ "g", "o" ],       run = "cd ~/Documents",             desc = "" },
 	{ on = [ "g", "s" ],       run = "cd /home/hartmut/Documents/Personal_Stuff/Bilder/Screenshots",desc = "" },
-	{ on = [ "g", "a" ],       run = "cd ~/Documents",     desc = "" },
+	{ on = [ "g", "a" ],       run = "cd ~/Documents/Uni/Thesis",     desc = "" },
 	# Help
 
 	# Tabs
