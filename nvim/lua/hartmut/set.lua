@@ -54,6 +54,6 @@ vim.opt.scrolloff = 7
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
-
 -- vim.opt.colorcolumn = "80"
 
+-- vim.opt.statuscolumn = [[%l %s ]] -- space right of linenumbers

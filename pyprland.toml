@@ -16,10 +16,25 @@ max_workspaces = 10
 [expose]
 include_special = false
 
-[scratchpads.terminal]
+[scratchpads.notes_2]
 animation = "fromTop"
 command = "kitty --class kitty-dropterm"
 class = "kitty-dropterm"
+position = "44% 7%"
+size = "52% 90%"
+#size = "98% 94%"
+unfocus = "hide"
+lazy = false
+pinned = false
+multi = false
+#excludes = "*"
+hysteresis = 0
+hide_delay = 0.3 # hiding animation
+
+[scratchpads.terminal]
+animation = "fromTop"
+command = "kitty"
+class = "kitty"
 position = "4% 7%"
 size = "92% 90%"
 #size = "98% 94%"
