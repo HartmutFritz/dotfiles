@@ -115,6 +115,11 @@ alias con="source ~/Programms/miniconda3/etc/fish/conf.d/conda.fish"
 alias coff="conda deactivate && conda deactivate && conda deactivate"
 alias cjku="con && conda activate jku"
 
+alias codejku="cd ~/Documents/Uni/ && code ." 
+alias codevlstm="cd ~/Documents/Uni/Thesis/repos/vision-lstm && code ." 
+alias codesmamba="cd ~/Documents/Uni/Thesis/repos/Spatial-Mamba && code ." 
+alias codexlstm="cd ~/Documents/Uni/Thesis/repos/xlstm && code ." 
+
 
 # YAZI
 function y
